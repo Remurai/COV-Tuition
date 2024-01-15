@@ -1,0 +1,330 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family: Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+}
+p{
+	font-size: 20px;
+	color: #434343;
+	line-height: 24px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.header {
+	background-color: 002c58;
+	text-align:none;
+	padding: 20px;
+}
+
+.transparent{
+	margin: auto;
+	width: 1000px;
+	height: 600px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding:10px;
+}
+
+.title{
+	margin-top:200px;
+	color:#434343;
+}
+
+.content{
+	margin: auto;
+	width: 300px;
+	height: 80px;
+	background-color: white;
+	color:#434343;
+	padding:5px;
+}
+
+.nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.nav ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color: 002c58;
+}
+
+.nav li{
+	float:left;
+}
+
+.nav li a {
+    display:block;
+	background-color:002c58;
+	color: white;
+	font-weight:bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover{
+	background-color:white;
+	color:002c58 ;
+}
+
+.parallax {
+	background-image: url("tuition.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.padding {
+	padding: 0 300px;
+}
+
+.decoration li:before{
+	content: '';
+	display: inline-block;
+	margin-right: 5px;
+}
+
+
+.columns{
+	margin-top:10px;
+	margin-left:10px;
+	display: flex;
+}
+
+.columns li{
+	list-style:none;
+	background-color:003366;
+	margin-top: 50px;
+	border-radius: 10px;
+	margin-right:100px;
+}
+
+.columns  li a{
+	text-align:center;
+	padding: 20 60px;
+	display: block;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 10px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.columns li a:hover{
+	background-color: white;
+	color: 003366;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.testimonials{
+	padding: 50px 0;
+	text-align:center;
+	background:#f1f1f1;
+	color: #434343;
+}
+
+.inner{
+	max-width: 1200px;
+	margin:auto;
+	overflow: hidden;
+	padding: 0 20px;
+}
+
+.border{
+	width: 160px;
+	height: 5px;
+	margin: auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.col{
+	flex: 33.33%;
+	max-width:33.33%;
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.testimonial{
+	background: #fff;
+	padding: 30px;
+}
+
+.name{
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+
+.stars{
+	color: 003366;
+	margin-bottom: 20px;
+}
+
+.contents, .subjects{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.rvbtn{
+	margin:auto;
+	padding: 16px 32px;
+	text-align: center;
+	display: block;
+	font-size: 20px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 12px;
+}
+
+.button{
+	margin:auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding: 16px 32px;
+	text-align: center;
+	display: block;
+	font-size: 20px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 12px;
+	width:40%;
+}
+
+.buttonb {
+	background-color: 003366;
+	color: white;
+}
+
+.buttonb:hover {
+	background-color: white;
+	color: 003366;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+footer .informations{
+	background-color: #3b4247;
+	padding-top:30px;
+	padding-left: 300px;
+	display:flex;
+	color: white;
+}
+
+footer .information{
+	display: block;
+}
+
+footer .operation{
+	margin-top:100px;
+}
+
+.contact ul{
+	list-style:none;
+	font-size: 20px;
+}
+
+.operation ul{
+	list-style:none;
+	font-size: 20px;
+}
+
+.social{
+	display: flex;
+	margin-top: 80px;
+	font-size: 40px;
+}
+
+.social i{
+	padding-left: 20px;
+}
+
+.social a{
+	color:white;
+	transition-duration: 0.4s;
+}
+
+.social a:hover{
+	color:003366;
+}
+
+footer .location{
+	margin-left: 130px;
+	margin-bottom: 50px;
+}
+
+footer .copyright p{
+	font-size:15px;
+	color: white;
+}
+
+footer .copyright {
+	background-color: #343b40;
+	padding: 0 200px;
+	display: flex;
+}
+
+footer .copyright ul{
+	padding: 0;
+	align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+footer .copyright li{
+	margin-left: 20px;
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: 003366;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+#myBtn:hover {
+	background-color: #555;
+}
+.video01{
+margin: 0 auto;
+padding: 1em 13em;
+min-height: 300px;
+}
+.video-left{
+margin: 1em 10em 1em 15em ;
+text-align: center;
+display: inline-block;
+}
+.video-right{
+text-align: center;
+}
